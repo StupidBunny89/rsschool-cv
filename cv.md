@@ -33,3 +33,7 @@ console.log(sayHello(""));       // Вывод: Привет, незнакоме
 ## Education 
 + Higher education - Belarusian Trade and Economics University of Consumer Cooperatives, majoring in Manager-Economist
 
+## Languages
++ Russian - Native speaker
++ Belarussian - Native speaker
++ English - A1 (Reading Technical Documentation)
