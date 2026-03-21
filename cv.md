@@ -12,7 +12,7 @@ I'm 29 years old. I have no experience in development, and my goal is to learn F
 + Java Script (in Lerning)
 + CSS (in Lerning)
 ## Code Example
-```js
+```
 
 // 1. Объявление переменных
 let userName = "Виктория";
