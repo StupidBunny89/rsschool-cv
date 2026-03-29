@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="cv-container">
+    <nav class="cv-nav" aria-label="Main navigation">
+        <ul class="cv-nav-items">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact-info">Contact</a></li>
+            <li><a href="#code-example">Code Example</a></li>
+        </ul>
+    </nav>
+    
+    <div class="cv-inner">
+        <aside class="sidebar">
+            <div class="avatar">
+                <img class="avatar-img" src="./img/IMG_8041.jpg" alt="photo">
+            </div>
+            <h2>Contact</h2>
+            <ul class="contact-list">
+                <li>📍 Minsk City</li>
+                <li>📧 <a href="mailto:Vichkamifka@gmail.com">Vichkamifka@gmail.com</a></li>
+                <li>📞 +375(29) 123 45 67</li>
+                <li><img src="./img/Github.svg" alt="github"> <a href="https://github.com/StupidBunny89" aria-label="GitHub">my GitHub</a></li>
+            </ul>
+            <h2>Working Skills</h2>
+            <ul class="skill-list">
+                <li><strong>HTML,</strong></li>
+                <li><strong>CSS,</strong></li>
+                <li><strong>JavaScript,</strong></li>
+                <li><strong>Figma</strong></li>
+            </ul>
+            
+            <h2>Languages</h2>
+            <ul class="lang-list">
+                <li>Belarussian – Mother tongue</li>
+                <li>Russian – Mother tongue</li>
+                <li>English – A1 (Reading Technical Documentation)</li>
+            </ul>
+            
+            <h2>Hobbies</h2>
+            <ul class="hobby-list">
+                <li>📖 Reading tech blogs & UI case studies</li>
+                <li>🎨 Exploring minimalist design</li>
+                <li>☕ Coffee & open source</li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <h1>Viktoria Subbota</h1>
+            <div class="job-tagline">Front‑end Developer</div>
+            <section id="about">
+                <h2>About me</h2>
+                <p>My name is Viktoria. I’m 29 years old with a degree in economics, and I’ve just embarked on my journey as a Front‑End developer. I’m passionate about turning ideas into clean, functional web pages, continuously learning new technologies (HTML, CSS, JavaScript, React), and aiming to achieve high results in this field.</p>
+            </section>
+            <section id="code-example">
+                <h2>Code example</h2>
+                <div class="code-example">
+                    <pre>
+// Simple React component example – functional &amp; typed
+interface GreetingProps {
+  name: string;
+}
+
+const Greeting: React.FC&lt;GreetingProps&gt; = ({ name }) => {
+  return &lt;div className="welcome"&gt;Hello, {name}! Welcome to my CV&lt;/div&gt;;
+};
+
+export default Greeting;
+                    </pre>
+                </div>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project-item">
+                    <div class="project-title">
+                        <span>my Firs Cv project</span>
+                        <span class="project-date">March 2026</span>
+                    </div>
+                    <p>This is my first experience in creating websites.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/StupidBunny89/rsschool-cv/blob/gh-pages/cv.md" target="_blank">📁 Source Code</a>
+                    </div>
+                </div>
+            </section>
+            <section id="education">
+                <h2>Education & Certificates</h2>
+                <div class="edu-item">
+                    <strong>University of Economy</strong><br>
+                    Higher education - Belarusian Trade and Economics University of Consumer Cooperatives, majoring in Manager-Economist
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="cv-footer">
+        <div>© 2026 Viktoria Subbota</div>
+        <div class="footer-links">
+            <a href="https://github.com/stupidbunny89" target="_blank" rel="noopener noreferrer">
+                <img src="./img/Github.svg" alt="github"> GitHub
+            </a>
+            <a href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer">
+                <img class="rss-logo" src="./img/rs.svg" alt="Rolling Scopes School logo" style="height:24px; width:auto;">
+            </a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
